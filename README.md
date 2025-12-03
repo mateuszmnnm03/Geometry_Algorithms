@@ -10,17 +10,23 @@ Projects feature visualization which also enables user input
 
 ## Delaunay Triangulation Project
 
-Project allows user defined input - defined, by clicking mouse left button in the window below:
-[img]
+This project allows user-defined input — points are added by clicking the left mouse button inside the window:
 
-Project include various input data types, such as points on a circle, ona a wave, completely random.
-Then, it uses implemented Delaunay algorithm to output such triangulation of these points, that returned
-triangles are as close to equilateral triangle as possible (minimises maximal angle of triangle).
-Some of the output look like that:
+![User input example](pic/user.png)
 
-[img2]
-[img3]
-[img4]
+The project supports several predefined datasets:
+- points on a circle
+- points on a sine wave
+- random point sets
+
+Then the program computes a **Delaunay triangulation**, producing triangles that maximize the minimal angle and tend to form shapes close to equilateral triangles.
+
+Example inputs and outputs:
+
+![Wave input](pic/wavepts.png)
+![Wave output](pic/waveout.png)
+![Random input](pics/rand.png)
+![Random output](pics/randout)
 
 ### How to run
 
