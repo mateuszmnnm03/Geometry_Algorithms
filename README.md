@@ -25,8 +25,8 @@ Example inputs and outputs:
 
 ![Wave input](pic/wavepts.png)
 ![Wave output](pic/waveout.png)
-![Random input](pics/rand.png)
-![Random output](pics/randout.png)
+![Random input](pic/rand.png)
+![Random output](pic/randout.png)
 
 ### How to run
 
